@@ -1,6 +1,6 @@
 # cs-girlies-hackathon
 
-MedTrack — a medication tracker with a calendar-based adherence history, take/skip/snooze tracking, reminders, and Supabase-backed accounts with client-side encrypted data.
+MedTrack is a medication tracker with a calendar-based adherence history, take/skip/snooze tracking, reminders, and Supabase-backed accounts with client-side encrypted data.
 
 ## Development
 
