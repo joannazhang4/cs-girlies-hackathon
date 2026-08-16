@@ -7,6 +7,7 @@ import { DayPage } from './pages/DayPage';
 import { CalendarPage } from './pages/CalendarPage';
 import { MedicationsListPage } from './pages/MedicationsListPage';
 import { AddEditMedicationPage } from './pages/AddEditMedicationPage';
+import { InteractionsPage } from './pages/InteractionsPage';
 import { todayISO } from './utils/date';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/day/:date" element={<DayPage />} />
                 <Route path="/calendar" element={<CalendarPage />} />
                 <Route path="/medications" element={<MedicationsListPage />} />
+                <Route path="/interactions" element={<InteractionsPage />} />
                 <Route path="/medications/new" element={<AddEditMedicationPage />} />
                 <Route path="/medications/:id/edit" element={<AddEditMedicationPage />} />
                 <Route path="*" element={<Navigate to={`/day/${todayISO()}`} replace />} />

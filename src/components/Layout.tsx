@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom';
-import { CalendarDays, ListChecks, LogOut, Pill, Plus, X } from 'lucide-react';
+import { CalendarDays, ListChecks, LogOut, Network, Pill, Plus, X } from 'lucide-react';
 import { todayISO } from '../utils/date';
 import { ReminderBanner } from './ReminderBanner';
 import { useMedications } from '../context/MedicationContext';
@@ -37,6 +37,10 @@ export function Layout() {
             <NavLink to="/medications" className={navLinkClass}>
               <Pill size={16} />
               <span className="hidden sm:inline">Medications</span>
+            </NavLink>
+            <NavLink to="/interactions" className={navLinkClass}>
+              <Network size={16} />
+              <span className="hidden sm:inline">Interactions</span>
             </NavLink>
             <NavLink
               to="/medications/new"
