@@ -1,0 +1,22 @@
+{
+  "ibuprofen": { "drug_id": "ibuprofen", "generic_name": "ibuprofen", "brand_names": ["advil", "motrin", "nurofen"] },
+  "acetaminophen": { "drug_id": "acetaminophen", "generic_name": "acetaminophen", "brand_names": ["tylenol", "panadol"] },
+  "aspirin": { "drug_id": "aspirin", "generic_name": "aspirin", "brand_names": ["bayer", "ecotrin"] },
+  "sertraline": { "drug_id": "sertraline", "generic_name": "sertraline", "brand_names": ["zoloft"] },
+  "fluoxetine": { "drug_id": "fluoxetine", "generic_name": "fluoxetine", "brand_names": ["prozac"] },
+  "warfarin": { "drug_id": "warfarin", "generic_name": "warfarin", "brand_names": ["coumadin", "jantoven"] },
+  "lisinopril": { "drug_id": "lisinopril", "generic_name": "lisinopril", "brand_names": ["prinivil", "zestril"] },
+  "metformin": { "drug_id": "metformin", "generic_name": "metformin", "brand_names": ["glucophage"] },
+  "atorvastatin": { "drug_id": "atorvastatin", "generic_name": "atorvastatin", "brand_names": ["lipitor"] },
+  "omeprazole": { "drug_id": "omeprazole", "generic_name": "omeprazole", "brand_names": ["prilosec"] },
+  "levothyroxine": { "drug_id": "levothyroxine", "generic_name": "levothyroxine", "brand_names": ["synthroid"] },
+  "amoxicillin": { "drug_id": "amoxicillin", "generic_name": "amoxicillin", "brand_names": ["amoxil"] },
+  "prednisone": { "drug_id": "prednisone", "generic_name": "prednisone", "brand_names": ["deltasone", "rayos"] },
+  "alprazolam": { "drug_id": "alprazolam", "generic_name": "alprazolam", "brand_names": ["xanax"] },
+  "diazepam": { "drug_id": "diazepam", "generic_name": "diazepam", "brand_names": ["valium"] },
+  "tramadol": { "drug_id": "tramadol", "generic_name": "tramadol", "brand_names": ["ultram"] },
+  "naproxen": { "drug_id": "naproxen", "generic_name": "naproxen", "brand_names": ["aleve"] },
+  "losartan": { "drug_id": "losartan", "generic_name": "losartan", "brand_names": ["cozaar"] },
+  "simvastatin": { "drug_id": "simvastatin", "generic_name": "simvastatin", "brand_names": ["zocor"] },
+  "clopidogrel": { "drug_id": "clopidogrel", "generic_name": "clopidogrel", "brand_names": ["plavix"] }
+}
